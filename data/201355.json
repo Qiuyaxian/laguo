@@ -1,0 +1,21 @@
+
+   {
+       "companyName":"拉勾网",
+   	   "position":"前端开发讲师",
+       "companyDescription":"互联网企业 / 上市公司 / 500人以上",
+       "companyImg":"img/3.jpg",
+   	   "advantage":{
+            "wages":"40k-60k",
+            "WorkingHours":"3-5年",
+            "workPlace":"上海",
+            "education":"研究生及以上"
+   	   	},
+       "education":"4.5天的工作时间，8小时制，社保，餐补，培训等",
+   	   "jobRequirement":[
+           "本科及以上学历，计算机、信息安全等相关专业",
+           "5年以上商业软件开发经验",
+           "熟悉angujs,Vuejs,Jquery Mobile等框架，并有实践经验",
+           "熟练掌握一门非前段语言（如PHP、java或者。net）",
+           "熟悉IOS/Android内核"
+   	   ]
+   }

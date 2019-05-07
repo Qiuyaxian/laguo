@@ -1,0 +1,115 @@
+[
+{
+
+         "id":"1",
+
+         "companyNumber":"201352",
+
+         "companyName":"和创科技（红圈营销）",
+
+         "position":"移动前端开发经理",
+
+         "wages":"20k-30k",
+
+         "companyImg":"img/3.jpg",
+
+         "Verification":"0"
+},
+  {
+
+         "id":"2",
+
+         "companyNumber":"201353",
+
+         "position":"前端组长",
+
+         "wages":"60k-90k",
+
+         "companyName":"爱奇艺科技",
+
+         "companyImg":"img/3.jpg",
+
+         "Verification":"0"
+  },
+  {
+
+         "id":"3",
+
+         "companyNumber":"201354",
+
+         "position":"项目经理",
+
+         "wages":"40k-60k",
+
+         "companyName":"土豆",
+
+         "companyImg":"img/3.jpg",
+
+         "Verification":"0"
+  },
+  {
+
+         "id":"4",
+
+         "companyNumber":"201355",
+
+         "position":"前端开发讲师",
+
+         "wages":"40k-60k",
+
+         "companyName":"拉勾网",
+
+         "companyImg":"img/3.jpg",
+
+         "Verification":"0"
+  },
+  {
+
+         "id":"5",
+
+         "companyNumber":"201356",
+
+         "position":"架构师",
+
+         "wages":"10k-20k",
+
+         "companyName":"新浪",
+
+         "companyImg":"img/3.jpg",
+
+         "Verification":"0"
+  },
+  {
+
+         "id":"6",
+
+         "companyNumber":"201357",
+
+         "position":"技术经理",
+
+         "wages":"20k-40k",
+
+         "companyName":"华为",
+
+         "companyImg":"img/3.jpg",
+
+         "Verification":"0"
+  },
+  {
+
+         "id":"7",
+
+         "companyNumber":"201358",
+
+         "companyName":"联想",
+
+         "position":"前端技术经理",
+
+         "wages":"25k-30k",
+
+         "companyImg":"img/3.jpg",
+
+         "Verification":"0"
+  }
+
+]

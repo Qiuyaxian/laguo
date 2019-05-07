@@ -1,0 +1,73 @@
+<section class="header">
+			<nav class="navbar">
+	             <section class="container-fluid">
+	                       <section class="row">
+	                            <h3>拉勾网</h3>
+	                      </section>
+	             </section>
+	        </nav>
+		</section>
+	
+		<section class="content">
+			<section class="container-fluid">
+				 <section class="row">
+				 	  <div class="panel panel-default">
+				 	       <div class="panel-heading">
+				 	       	   <p>前端实习 <a class="badge pull-right"><i class="glyphicon glyphicon-pencil"></i>编辑</a></p>
+				 	       </div>
+						   <div class="panel-body">
+						        <ul class="media-list">
+									  <li class="list-group-item" ng-repeat="company in companys">
+									      <div class="row">
+									      	   <div class="col-md-8 col-sm-8 col-xs-8">
+									      	        
+											    	 <div class="media">
+											    	 	  <a class="pull-left" href="#/data/{{company.companyNumber}}">
+														      <img class="media-object" src="./{{company.companyImg}}" alt="...">
+														  </a>
+														  <div class="media-body">
+														        <a href="#/data/{{company.companyNumber}}" class="block">
+															      <h4 class="media-heading">{{company.companyName}}</h4>
+															      <p>{{company.position}}</p>
+															      <span>{{NowDay}}</span>
+											    			   </a>
+														  </div>
+											    	 </div>
+											    </div>
+											    <div class="col-md-4 col-sm-4 col-xs-4">
+											    	  <a href="#/data/{{company.companyNumber}}" class="block">
+											    	     {{company.wages}}
+											    	  </a>
+											    </div>
+									      </div>
+									  </li>
+								</ul>
+						   </div>
+					  </div>
+				 </section>
+			</section>
+		</section>
+		
+		<section class="footer">
+			　 <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+				   <div class="container-fluid">
+				   	     <ul class="row">
+					    	 <li class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							          <a class="" href="#/index">
+							             <span class="glyphicon glyphicon-home"></span>职位
+							          </a>
+							 </li>
+							 <li class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							    	  <a class="" href="#/search">
+							    	     <span class="glyphicon glyphicon-home"></span>搜索
+							    	  </a>
+							 </li>
+							 <li class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							           <a class="" href="#/user">
+							              <span class="glyphicon glyphicon-home"></span>我的
+							           </a>
+							 </li>
+					    </ul>
+				   </div>
+			   </nav>
+		</section>

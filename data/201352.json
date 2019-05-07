@@ -1,0 +1,21 @@
+
+   {
+       "companyName":"和创科技（红圈营销）",
+   	   "position":"移动前端开发经理",
+       "companyDescription":"移动互联网企业 / 上市公司 / 1000人以上",
+       "companyImg":"img/3.jpg",
+   	   "advantage":{
+            "wages":"20k-30k",
+            "WorkingHours":"3-5年",
+            "workPlace":"北京",
+            "education":"本科及以上"
+   	   	},
+        "education":"提供住宿",
+   	   "jobRequirement":[
+           "重点大学本科及以上学历，计算机、信息安全等相关专业",
+           "2年以上商业软件开发经验",
+           "具有逆向工程，恶意软件分析工作经验",
+           "精通汇编、C和objective C语言",
+           "熟悉IOS/Android内核，ARM架构"
+   	   ]
+   }

@@ -1,0 +1,18 @@
+
+   {
+       "companyName":"华为",
+   	   "position":"技术经理",
+       "companyDescription":"互联网企业 / 上市公司 / 5000人以上",
+       "companyImg":"img/3.jpg",
+   	   "advantage":{
+            "wages":"20k-40k",
+            "WorkingHours":"3-5年",
+            "workPlace":"广州",
+            "education":"研究生及以上"
+   	   	},
+        "education":"开放，自由的工作环境",
+   	   "jobRequirement":[
+           "研究生及以上学历，计算机、信息安全等相关专业",
+           "3年以上工作经验"
+   	   ]
+   }

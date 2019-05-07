@@ -1,0 +1,21 @@
+
+   {
+       "companyName":"土豆",
+   	   "position":"项目经理",
+       "companyDescription":"互联网企业 / 全国五百强 / 3000人以上",
+       "companyImg":"img/3.jpg",
+   	   "advantage":{
+            "wages":"40k-60k",
+            "WorkingHours":"3-5年",
+            "workPlace":"上海",
+            "education":"研究生及以上"
+   	   	},
+        "education":"提升空间大",
+   	   "jobRequirement":[
+           "研究生及以上学历，计算机、信息安全等相关专业",
+           "5年以上商业软件开发经验",
+           "具有逆向工程，恶意软件分析工作经验",
+           "精通汇编、C和objective C语言",
+           "熟悉IOS/Android内核，ARM架构"
+   	   ]
+   }

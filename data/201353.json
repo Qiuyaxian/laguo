@@ -1,0 +1,18 @@
+
+   {
+       "companyName":"爱奇艺科技",
+   	   "position":"前端组长",
+       "companyDescription":"互联网企业 / 上市公司 / 2000人以上",
+       "companyImg":"img/3.jpg",
+   	   "advantage":{
+            "wages":"60k-90k",
+            "WorkingHours":"3-5年",
+            "workPlace":"广州",
+            "education":"本科及以上"
+   	   	},
+      "education":"开放，自由的工作环境",
+   	   "jobRequirement":[
+           "重点大学本科及以上学历，计算机、信息安全等相关专业",
+           "6年以上商业软件开发经验"
+   	   ]
+   }

@@ -1,0 +1,19 @@
+
+   {
+       "companyName":"新浪",
+   	   "position":"架构师",
+        "companyDescription":"互联网企业 / 全国五百强 / 2000人以上",
+       "companyImg":"img/3.jpg",
+   	   "advantage":{
+            "wages":"10k-20k",
+            "WorkingHours":"2-3年",
+            "workPlace":"成都",
+            "education":"本科及以上"
+   	   	},
+       "education":"开放，自由的工作环境，购买社会保险，定期体检，婚嫁等",
+   	   "jobRequirement":[
+           "全日制统招本科及以上学历，计算机、信息安全等相关专业",
+           "2年以上工作经验",
+           "CCIE认证或者华为工程师高级"
+   	   ]
+   }

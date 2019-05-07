@@ -1,0 +1,120 @@
+<section class="header">
+			<nav class="navbar">
+			     <section class="row">
+	                   <section class="container-fluid">
+	                       <section class="row">
+	                            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+	                            	  <a class="btn btn-lg pull-left" ng-click="$location.path('index')"><span class="glyphicon glyphicon-chevron-left"></span></a>
+	                            </div>
+	                            <h3 class="col-lg-10 col-md-10 col-sm-10 col-xs-10">拉勾网</h3>
+	                            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+	                            	  <a class="btn btn-lg pull-right" ng-click="$location.path('index')"><span class="glyphicon glyphicon-home"></span></a>
+	                            </div>
+	                      </section>
+	                   </section>
+	             </section>
+	        </nav>
+		</section>
+	
+		<section class="content">
+		     <section class="detail">
+				<section class="container-fluid">
+					<section class="row">
+						 <div class="well">
+	                       <section class="row">
+	                            <section class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+	                            	<h3>{{companyContent.position}}</h3>
+	                            </section>
+	                            <section class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+	                            	<span class="collection text-center"><i class="glyphicon glyphicon-star-empty"></i>未收藏</span>
+	                            </section>
+					       </section>
+					 	 </div>
+					</section>
+                    <section class="desp">
+						<section class="row">
+							<section class="col-lg-9 col-md-9 col-sm-9 col-xs-9 ">
+								<section class="row">
+									 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+									 	  <span>
+									 	         <i class="glyphicon glyphicon-usd"></i>
+									 	         {{companyContent.advantage.wages}}
+									 	  </span>
+									 	  <span>
+									 	         <i class="glyphicon glyphicon-folder-close"></i>
+ 												 {{companyContent.advantage.WorkingHours}}		
+									 	  </span>
+									 </div>
+									 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+									 	  <span>
+									 	         <i class="glyphicon glyphicon-map-marker"></i>
+ 												{{companyContent.advantage.workPlace}}
+									 	  </span>
+									 	  <span>
+									 	         <i class="glyphicon glyphicon-hand-right"></i>
+									 	         {{companyContent.advantage.education}}
+									 	  </span>
+									 </div>
+								</section>
+								<p>职位诱惑：{{companyContent.education}}</p>
+							</section>
+							<section class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+								<span class="text-center"><i class="glyphicon glyphicon-time"></i>全职</span>
+							</section>
+						</section>
+					</section>
+
+                    <section class="">
+                    	    <section class="row">
+                    		    <section class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+	                            	<div class="media">
+									     <a class="pull-left" href="#">
+									       <img class="media-object" ng-src="./{{companyContent.companyImg}}" alt="3.jpg">
+									     </a>
+									     <div class="media-body">
+									        <h3 class="media-heading">
+												{{companyContent.companyName}}
+									        </h3>
+									        <p>{{companyContent.companyDescription}}</p>
+									     </div>
+									</div>
+	                            </section>
+	                            <section class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+	                            	<span class="text-center"><i class="glyphicon glyphicon-ok-circle"></i></span>
+	                            </section>
+                    	    </section>
+                    </section>
+                    <section class="">
+                    	  <section class="row">
+                    	  	  <p class="description">
+                    	  	  	   职位描述
+                    	  	  </p>
+                    	  	  <section class="row">
+                    	  	  	   <ol>
+                    	  	  	   	    <li ng-repeat="requirement in companyContent.jobRequirement">
+                    	  	  	   	    	{{requirement}}
+                    	  	  	   	    </li>
+                    	  	  	   </ol>
+                    	  	  </section>
+                    	  </section>
+                    </section>
+
+                   <section class="">
+                    	  <section class="row">
+                    	  	  <p class="evaluation">
+                    	  	  	  面试评价
+                    	  	  </p>
+                    	  	  <section class="row">
+                    	  	  	 
+                    	  	  </section>
+                    	  </section>
+                    </section>
+
+
+				</section>
+		     </section>
+		</section>
+		
+		<section class="footer">
+			　<a href="javascript:;" class="btn btn-block" id="send">投个简历</a>
+		</section>
